@@ -1,0 +1,129 @@
+24-Aug-2023 00:14:58.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.79
+24-Aug-2023 00:14:58.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 8 2023 20:41:26 UTC
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.79.0
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     12.3.1
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/chaebin/Library/Java/JavaVirtualMachines/openjdk-18.0.1.1/Contents/Home
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.1.1+2-6
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:14:58.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/conf/logging.properties
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Aug-2023 00:14:58.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Aug-2023 00:14:58.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+24-Aug-2023 00:14:58.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:14:58.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:14:58.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/temp
+24-Aug-2023 00:14:58.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/chaebin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Aug-2023 00:14:58.616 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+24-Aug-2023 00:14:58.637 INFO [main] org.apache.catalina.startup.Catalina.load [389] 밀리초 내에 서버가 초기화되었습니다.
+24-Aug-2023 00:14:58.663 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+24-Aug-2023 00:14:58.663 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.79]
+24-Aug-2023 00:14:58.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/docs]을(를) 배치합니다.
+24-Aug-2023 00:14:58.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/docs]에 대한 배치가 [176] 밀리초에 완료되었습니다.
+24-Aug-2023 00:14:58.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/manager]을(를) 배치합니다.
+24-Aug-2023 00:14:58.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/manager]에 대한 배치가 [23] 밀리초에 완료되었습니다.
+24-Aug-2023 00:14:58.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/examples]을(를) 배치합니다.
+24-Aug-2023 00:14:59.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/examples]에 대한 배치가 [145] 밀리초에 완료되었습니다.
+24-Aug-2023 00:14:59.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/ROOT]을(를) 배치합니다.
+24-Aug-2023 00:14:59.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/ROOT]에 대한 배치가 [10] 밀리초에 완료되었습니다.
+24-Aug-2023 00:14:59.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/host-manager]을(를) 배치합니다.
+24-Aug-2023 00:14:59.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/host-manager]에 대한 배치가 [12] 밀리초에 완료되었습니다.
+24-Aug-2023 00:14:59.038 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+24-Aug-2023 00:14:59.045 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [408] 밀리초 내에 시작되었습니다.
+24-Aug-2023 00:25:53.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.79
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Aug 8 2023 20:41:26 UTC
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.79.0
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     12.3.1
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Users/chaebin/Library/Java/JavaVirtualMachines/openjdk-18.0.1.1/Contents/Home
+24-Aug-2023 00:25:53.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          18.0.1.1+2-6
+24-Aug-2023 00:25:53.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+24-Aug-2023 00:25:53.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:25:53.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/conf/logging.properties
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+24-Aug-2023 00:25:53.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Aug-2023 00:25:53.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Aug-2023 00:25:53.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+24-Aug-2023 00:25:53.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:25:53.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat
+24-Aug-2023 00:25:53.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/temp
+24-Aug-2023 00:25:53.427 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/chaebin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+24-Aug-2023 00:25:53.619 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+24-Aug-2023 00:25:53.630 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector["http-nio-8080"]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1040)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1324)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1337)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+24-Aug-2023 00:25:53.631 INFO [main] org.apache.catalina.startup.Catalina.load [349] 밀리초 내에 서버가 초기화되었습니다.
+24-Aug-2023 00:25:53.653 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+24-Aug-2023 00:25:53.653 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.79]
+24-Aug-2023 00:25:53.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/docs]을(를) 배치합니다.
+24-Aug-2023 00:25:53.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/docs]에 대한 배치가 [154] 밀리초에 완료되었습니다.
+24-Aug-2023 00:25:53.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/manager]을(를) 배치합니다.
+24-Aug-2023 00:25:53.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/manager]에 대한 배치가 [22] 밀리초에 완료되었습니다.
+24-Aug-2023 00:25:53.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/examples]을(를) 배치합니다.
+24-Aug-2023 00:25:53.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/examples]에 대한 배치가 [131] 밀리초에 완료되었습니다.
+24-Aug-2023 00:25:53.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/ROOT]을(를) 배치합니다.
+24-Aug-2023 00:25:53.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/ROOT]에 대한 배치가 [9] 밀리초에 완료되었습니다.
+24-Aug-2023 00:25:53.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/host-manager]을(를) 배치합니다.
+24-Aug-2023 00:25:53.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/chaebin/IdeaProjects/study/Spring-Web/src/tomcat/webapps/host-manager]에 대한 배치가 [12] 밀리초에 완료되었습니다.
+24-Aug-2023 00:25:53.989 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [357] 밀리초 내에 시작되었습니다.
+24-Aug-2023 00:25:53.993 SEVERE [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:640)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:392)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:582)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+24-Aug-2023 00:25:53.993 INFO [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+24-Aug-2023 00:25:53.993 INFO [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+24-Aug-2023 00:25:54.007 INFO [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+24-Aug-2023 00:25:54.008 INFO [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
