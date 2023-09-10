@@ -12,6 +12,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <spring.version>5.0.7.RELEASE</spring.version>
+        <org.springframwork-version>5.3.3</org.springframwork-version>
     </properties>
     <dependencies>
 <!--        Spring Framework -->
@@ -24,17 +25,27 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.3.3</version>
+            <version>${org.springframwork-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.3.3</version>
+            <version>${org.springframwork-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>5.3.3</version>
+            <version>${org.springframwork-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${org.springframwork-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${org.springframwork-version}</version>
         </dependency>
 <!--        lombok-->
         <dependency>
@@ -43,10 +54,21 @@
             <version>1.18.16</version>
             <scope>provided</scope>
         </dependency>
+<!--        log4j-->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bgee.log4jdbc-log4j2</groupId>
+            <artifactId>log4jdbc-log4j2-jdbc4</artifactId>
+            <version>1.16</version>
         </dependency>
 <!--        junit for test-->
         <dependency>
@@ -54,6 +76,30 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+<!--        mysql 1.8 version 안맞으면 에러-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
+        </dependency>
+<!--        Hikari-->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>2.7.4</version>
+        </dependency>
+<!--        MyBatis-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>

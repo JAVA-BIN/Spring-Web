@@ -8,7 +8,7 @@
 ## Spring Version
 - 5.x -> JDK 1.8  
 - 4.x -> JDK 1.6
-- 3.x -> JDK 1.5
+- 3.x -> JDK 1.5  
 JDK 1.9의 경우 MyBatis 경고 메시지 이슈
   
 
@@ -50,3 +50,16 @@ ex) A가 B에게 필요하다는 신호만 보내고, B 객체를 주입하는 �
 - @Test : junit 상에서 단위 테스트 대상인지 알려줌
 - @RequiredArgsConstructor : @NonNull이나 final이 붙은 인스턴스 변수에 대한 생성자를 만들어 냄
 
+## MyBatis
+- 전통적인 JDBC 프로그램
+  - 직접 Connection -> close()
+  - PreparedStatement 생성 및 처리
+  - SELECT의 경우 ResultSet 처리
+- MyBatis
+  - 자동으로 Connection close()
+  - 내부적으로 PreparedStatement 처리
+  - 리턴 타입 지정하는 경우 자동으로 객체 생성 및 ResultSet 처리
+  - SQL을 그대로 활용할 수 있다.
+  - Mybatis-Spring <-> Mybatis <-> DB
+- JDBC의 PreparedStatement를 이용하여 SQL을 처리합니다.
+  - PreparedStatement에 사용된 '?'값의 로그를 보기위해 log4jdbc-log4j2 추가
